@@ -1,0 +1,292 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.personalInfo {
+    width: 208px;
+    height: 49px;
+    top: 102px;
+    left: 627.97px;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 49px;
+    letter-spacing: -0.035em;
+    text-align: left;
+
+}
+
+.thProfile {
+    color: #000000;
+
+}
+
+.basicInfo {
+    width: 274px;
+    height: 25px;
+    top: 159px;
+    left: 591.11px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: -0.035em;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 845.91px;
+    top: 228.06px;
+    left: 297.04px;
+    border-radius: 12px;
+
+}
+
+th {
+    display: flex;
+    align-items: baseline;
+    padding: 20px 50px;
+    gap: 150px
+}
+
+.thProfile {
+    width: 69px;
+    height: 33px;
+    top: 256.38px;
+    left: 346.34px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: -0.035em;
+    text-align: left;
+}
+
+.thSomeInfo {
+    width: 463.25px;
+    height: 19.79px;
+    top: 293.38px;
+    left: 347px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: -0.035em;
+    text-align: left;
+
+}
+
+.thBtnEdit {
+    padding: 5px 25px;
+    border-radius: 12px;
+    border: 1px;
+    border: 1px solid white;
+    background-color: #4791FF;
+    color: white;
+
+}
+
+.thBtnEdit:hover {
+    background-color: rgb(18, 18, 255);
+
+
+    transition: 0.3s;
+}
+
+.tdDatosTable {
+    display: flex;
+    align-items: baseline;
+    border-top: 1px solid #E0E0E0;
+    padding: 25px 50px;
+    gap: 150px
+}
+
+.tdFoto {
+    display: flex;
+    border-top: 1px solid #E0E0E0;
+    padding: 15px 50px;
+    gap: 150px;
+}
+
+
+h3 {
+    width: 37px;
+    height: 18px;
+    top: 471.3px;
+    left: 346.34px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: -0.035em;
+    text-align: left;
+    color: #BDBDBD;
+
+}
+
+.linksFoot {
+    color: #828282;
+    font-size: 14px;
+    display: flex;
+    margin-top: 15px;
+    gap: 600px
+}
+
+.aLink {
+    color: #828282;
+    text-decoration: underline;
+}
+
+.nameTd {
+    padding-top: 30px;
+    gap: 500px
+}
+
+.interactiveMenu {
+    width: 188px;
+    height: 174px;
+    border-radius: 12px;
+    border: 1px;
+    border: 1px solid #E0E0E0;
+    visibility: hidden;
+    position: absolute;
+    /*mueve la posicion de la caja interactiva*/
+    top: 50px;
+    right: 20px;
+}
+
+
+
+.desplegar {
+    visibility: visible;
+}
+
+.myProfileInteractive {
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+.groupChatInteractive {
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+.logOutInteractive {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 15px;
+    border-top: 1px solid #E0E0E0;
+    padding: 5px;
+    color: #EB5757;
+
+}
+
+ul {
+    list-style: none;
+}
+
+.aTextInteractive {
+    text-decoration: none;
+    color: #4F4F4F;
+
+}
+
+.aTextInteractiveLog {
+    text-decoration: none;
+    color: #EB5757;
+
+}
+
+.paintInteractive {
+    width: 154.12px;
+    /*164.12*/
+    height: 39.15px;
+    /*39.15px*/
+    border-radius: 8px;
+    background: #F2F2F2;
+    padding: 7px;
+}
+
+.cuadrado {
+    width: 72px;
+    height: 72px;
+    top: 263.55px;
+    left: 345.22px;
+    border-radius: 8px;
+    margin-right: 15px;
+    display: flex;
+}
+
+.cuadradoNav {
+    width: 32px;
+    height: 36.69px;
+    margin-right: 10px;
+    border-radius: 8px;
+}
+
+.containerPicInNav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.aLink:hover {
+    color: #33b2fc;
+    transition: 0.3s;
+}
+
+.darkMode {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    border: solid 2px #828282;
+    margin: 30px 60px 0px;
+}
+
+
+.a {
+    background-color: #252329;
+    color: white;
+    transition: 0.4s;
+
+}
+
+.textwhite {
+    color: white;
+}
+
+.logoWhite {
+    display: none;
+}
+
+.logoDark {
+    display: block;
+}
+
+.btnDarkMode {
+    background-color: #252329;
+    color: white;
+    border: solid 2px white;
+}
+
+.moon {
+    color: gray;
+}
