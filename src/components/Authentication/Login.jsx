@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Icons } from "../Icons/Icons";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import dev from "/public/devchallenges.svg";
 
 export const Login = () => {
@@ -144,12 +144,12 @@ export const Login = () => {
           <div className="text-center">
             <p className="text-sm text-gray-600">
               No tienes una cuenta aun?{" "}
-              <a
-                href="https://bitacoraback-production.up.railway.app/api/auth/Register"
+              <Link
+                to="/Register"
                 className="font-medium text-blue-600 hover:text-blue-500"
               >
                 Registrate
-              </a>
+              </Link>
             </p>
           </div>
         </div>
