@@ -145,7 +145,7 @@ export const Login = () => {
             <p className="text-sm text-gray-600">
               No tienes una cuenta aun?{" "}
               <a
-                href="/Register"
+                href="https://bitacoraback-production.up.railway.app/api/auth/Register"
                 className="font-medium text-blue-600 hover:text-blue-500"
               >
                 Registrate
