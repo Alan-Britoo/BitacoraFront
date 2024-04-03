@@ -18,7 +18,7 @@ export const Register = () => {
       user: user,
     };
 
-    fetch("https://bitacoraback-production.up.railway.app/api/auth/Register", {
+    fetch("https://bitacoraback-production.up.railway.app/api/auth/register", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
